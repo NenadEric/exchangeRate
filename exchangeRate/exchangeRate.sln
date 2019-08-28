@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcangeRate.API", "ExcangeRate.API\ExcangeRate.API.csproj", "{CC0FC48D-A5C9-4DFF-A24C-7981C05D616D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcangeRate.Service", "ExcaangeRate.Service\ExcangeRate.Service.csproj", "{C461A5FA-1449-4E3B-92E7-EA7AA0DE1814}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC0FC48D-A5C9-4DFF-A24C-7981C05D616D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0FC48D-A5C9-4DFF-A24C-7981C05D616D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0FC48D-A5C9-4DFF-A24C-7981C05D616D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0FC48D-A5C9-4DFF-A24C-7981C05D616D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C461A5FA-1449-4E3B-92E7-EA7AA0DE1814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C461A5FA-1449-4E3B-92E7-EA7AA0DE1814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C461A5FA-1449-4E3B-92E7-EA7AA0DE1814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C461A5FA-1449-4E3B-92E7-EA7AA0DE1814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
