@@ -9,7 +9,7 @@ namespace ExcangeRate.Service.Models
 		[JsonIgnore]
 		public double MaximuRate { get; set; } = 0;
 		[JsonIgnore]
-		public string MiminumRateDate { get; set; }
+		public string MinimumRateDate { get; set; }
 		[JsonIgnore]
 		public string MaximumRateDate { get; set; }
 		[JsonIgnore]
@@ -17,7 +17,7 @@ namespace ExcangeRate.Service.Models
 		[JsonIgnore]
 		public int RateCount { get; set; }
 
-		public string Minimum => $"A min rate of {MinimumRate} on {MiminumRateDate}";
+		public string Minimum => $"A min rate of {MinimumRate} on {MinimumRateDate}";
 		public string Maximum => $"A max rate of {MaximuRate} on {MaximumRateDate}";
 		public string Average => $"An average rate of {RateSum / RateCount}";
 	}
