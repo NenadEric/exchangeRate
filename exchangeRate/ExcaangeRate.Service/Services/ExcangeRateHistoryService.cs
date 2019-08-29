@@ -66,7 +66,7 @@ namespace ExcangeRate.Service.Services
 							if (rateVal < statistic.MinimumRate)
 							{
 								statistic.MinimumRate = rateVal;
-								statistic.MiminumRateDate = rawObject.Date;
+								statistic.MinimumRateDate = rawObject.Date;
 							}
 
 							if (rateVal > statistic.MaximuRate)
